@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84978F2D1E56F72300547D27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84978F2C1E56F72300547D27 /* AppDelegate.m */; };
+		84978F301E56F72300547D27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84978F2F1E56F72300547D27 /* main.m */; };
+		84978F331E56F72300547D27 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84978F321E56F72300547D27 /* ViewController.m */; };
+		84978F351E56F72300547D27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84978F341E56F72300547D27 /* Assets.xcassets */; };
+		84978F381E56F72300547D27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84978F361E56F72300547D27 /* Main.storyboard */; };
+		84978F431E56F72300547D27 /* flibblecocoaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84978F421E56F72300547D27 /* flibblecocoaTests.m */; };
+		84978F4E1E56F72300547D27 /* flibblecocoaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84978F4D1E56F72300547D27 /* flibblecocoaUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84978F3F1E56F72300547D27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84978F201E56F72300547D27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84978F271E56F72300547D27;
+			remoteInfo = flibblecocoa;
+		};
+		84978F4A1E56F72300547D27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84978F201E56F72300547D27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84978F271E56F72300547D27;
+			remoteInfo = flibblecocoa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84978F281E56F72300547D27 /* flibblecocoa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flibblecocoa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84978F2B1E56F72300547D27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84978F2C1E56F72300547D27 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84978F2F1E56F72300547D27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84978F311E56F72300547D27 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84978F321E56F72300547D27 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84978F341E56F72300547D27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84978F371E56F72300547D27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84978F391E56F72300547D27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84978F3E1E56F72300547D27 /* flibblecocoaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flibblecocoaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84978F421E56F72300547D27 /* flibblecocoaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = flibblecocoaTests.m; sourceTree = "<group>"; };
+		84978F441E56F72300547D27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84978F491E56F72300547D27 /* flibblecocoaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flibblecocoaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84978F4D1E56F72300547D27 /* flibblecocoaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = flibblecocoaUITests.m; sourceTree = "<group>"; };
+		84978F4F1E56F72300547D27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84978F251E56F72300547D27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84978F3B1E56F72300547D27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84978F461E56F72300547D27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84978F1F1E56F72300547D27 = {
+			isa = PBXGroup;
+			children = (
+				84978F2A1E56F72300547D27 /* flibblecocoa */,
+				84978F411E56F72300547D27 /* flibblecocoaTests */,
+				84978F4C1E56F72300547D27 /* flibblecocoaUITests */,
+				84978F291E56F72300547D27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84978F291E56F72300547D27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84978F281E56F72300547D27 /* flibblecocoa.app */,
+				84978F3E1E56F72300547D27 /* flibblecocoaTests.xctest */,
+				84978F491E56F72300547D27 /* flibblecocoaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84978F2A1E56F72300547D27 /* flibblecocoa */ = {
+			isa = PBXGroup;
+			children = (
+				84978F2B1E56F72300547D27 /* AppDelegate.h */,
+				84978F2C1E56F72300547D27 /* AppDelegate.m */,
+				84978F311E56F72300547D27 /* ViewController.h */,
+				84978F321E56F72300547D27 /* ViewController.m */,
+				84978F341E56F72300547D27 /* Assets.xcassets */,
+				84978F361E56F72300547D27 /* Main.storyboard */,
+				84978F391E56F72300547D27 /* Info.plist */,
+				84978F2E1E56F72300547D27 /* Supporting Files */,
+			);
+			path = flibblecocoa;
+			sourceTree = "<group>";
+		};
+		84978F2E1E56F72300547D27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84978F2F1E56F72300547D27 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84978F411E56F72300547D27 /* flibblecocoaTests */ = {
+			isa = PBXGroup;
+			children = (
+				84978F421E56F72300547D27 /* flibblecocoaTests.m */,
+				84978F441E56F72300547D27 /* Info.plist */,
+			);
+			path = flibblecocoaTests;
+			sourceTree = "<group>";
+		};
+		84978F4C1E56F72300547D27 /* flibblecocoaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84978F4D1E56F72300547D27 /* flibblecocoaUITests.m */,
+				84978F4F1E56F72300547D27 /* Info.plist */,
+			);
+			path = flibblecocoaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84978F271E56F72300547D27 /* flibblecocoa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84978F521E56F72300547D27 /* Build configuration list for PBXNativeTarget "flibblecocoa" */;
+			buildPhases = (
+				84978F241E56F72300547D27 /* Sources */,
+				84978F251E56F72300547D27 /* Frameworks */,
+				84978F261E56F72300547D27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = flibblecocoa;
+			productName = flibblecocoa;
+			productReference = 84978F281E56F72300547D27 /* flibblecocoa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84978F3D1E56F72300547D27 /* flibblecocoaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84978F551E56F72300547D27 /* Build configuration list for PBXNativeTarget "flibblecocoaTests" */;
+			buildPhases = (
+				84978F3A1E56F72300547D27 /* Sources */,
+				84978F3B1E56F72300547D27 /* Frameworks */,
+				84978F3C1E56F72300547D27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84978F401E56F72300547D27 /* PBXTargetDependency */,
+			);
+			name = flibblecocoaTests;
+			productName = flibblecocoaTests;
+			productReference = 84978F3E1E56F72300547D27 /* flibblecocoaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84978F481E56F72300547D27 /* flibblecocoaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84978F581E56F72300547D27 /* Build configuration list for PBXNativeTarget "flibblecocoaUITests" */;
+			buildPhases = (
+				84978F451E56F72300547D27 /* Sources */,
+				84978F461E56F72300547D27 /* Frameworks */,
+				84978F471E56F72300547D27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84978F4B1E56F72300547D27 /* PBXTargetDependency */,
+			);
+			name = flibblecocoaUITests;
+			productName = flibblecocoaUITests;
+			productReference = 84978F491E56F72300547D27 /* flibblecocoaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84978F201E56F72300547D27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Admin;
+				TargetAttributes = {
+					84978F271E56F72300547D27 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					84978F3D1E56F72300547D27 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84978F271E56F72300547D27;
+					};
+					84978F481E56F72300547D27 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84978F271E56F72300547D27;
+					};
+				};
+			};
+			buildConfigurationList = 84978F231E56F72300547D27 /* Build configuration list for PBXProject "flibblecocoa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84978F1F1E56F72300547D27;
+			productRefGroup = 84978F291E56F72300547D27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84978F271E56F72300547D27 /* flibblecocoa */,
+				84978F3D1E56F72300547D27 /* flibblecocoaTests */,
+				84978F481E56F72300547D27 /* flibblecocoaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84978F261E56F72300547D27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84978F351E56F72300547D27 /* Assets.xcassets in Resources */,
+				84978F381E56F72300547D27 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84978F3C1E56F72300547D27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84978F471E56F72300547D27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84978F241E56F72300547D27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84978F331E56F72300547D27 /* ViewController.m in Sources */,
+				84978F301E56F72300547D27 /* main.m in Sources */,
+				84978F2D1E56F72300547D27 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84978F3A1E56F72300547D27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84978F431E56F72300547D27 /* flibblecocoaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84978F451E56F72300547D27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84978F4E1E56F72300547D27 /* flibblecocoaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84978F401E56F72300547D27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84978F271E56F72300547D27 /* flibblecocoa */;
+			targetProxy = 84978F3F1E56F72300547D27 /* PBXContainerItemProxy */;
+		};
+		84978F4B1E56F72300547D27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84978F271E56F72300547D27 /* flibblecocoa */;
+			targetProxy = 84978F4A1E56F72300547D27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84978F361E56F72300547D27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84978F371E56F72300547D27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84978F501E56F72300547D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		84978F511E56F72300547D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		84978F531E56F72300547D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = flibblecocoa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flibble.flibblecocoa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84978F541E56F72300547D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = flibblecocoa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flibble.flibblecocoa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84978F561E56F72300547D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = flibblecocoaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flibble.flibblecocoaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/flibblecocoa.app/Contents/MacOS/flibblecocoa";
+			};
+			name = Debug;
+		};
+		84978F571E56F72300547D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = flibblecocoaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flibble.flibblecocoaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/flibblecocoa.app/Contents/MacOS/flibblecocoa";
+			};
+			name = Release;
+		};
+		84978F591E56F72300547D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = flibblecocoaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flibble.flibblecocoaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = flibblecocoa;
+			};
+			name = Debug;
+		};
+		84978F5A1E56F72300547D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = flibblecocoaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flibble.flibblecocoaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = flibblecocoa;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84978F231E56F72300547D27 /* Build configuration list for PBXProject "flibblecocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84978F501E56F72300547D27 /* Debug */,
+				84978F511E56F72300547D27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84978F521E56F72300547D27 /* Build configuration list for PBXNativeTarget "flibblecocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84978F531E56F72300547D27 /* Debug */,
+				84978F541E56F72300547D27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84978F551E56F72300547D27 /* Build configuration list for PBXNativeTarget "flibblecocoaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84978F561E56F72300547D27 /* Debug */,
+				84978F571E56F72300547D27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84978F581E56F72300547D27 /* Build configuration list for PBXNativeTarget "flibblecocoaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84978F591E56F72300547D27 /* Debug */,
+				84978F5A1E56F72300547D27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84978F201E56F72300547D27 /* Project object */;
+}
